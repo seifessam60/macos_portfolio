@@ -3,6 +3,7 @@ import { dockApps } from "../constants/index";
 import { useRef } from "react";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
+import useWindowStore from "../store/window";
 
 const Dock = () => {
   const { openWindow, closeWindow, windows } = useWindowStore();
