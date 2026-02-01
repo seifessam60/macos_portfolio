@@ -4,6 +4,9 @@ import { Draggable } from "gsap/Draggable";
 import Safari from "./windows/Safari";
 import Finder from "./windows/Finder";
 import Resume from "./windows/Resume";
+import Text from "./windows/Text";
+import Image from "./windows/Image";
+import Contact from "./windows/Contact";
 gsap.registerPlugin(Draggable);
 
 const App = () => {
@@ -16,6 +19,9 @@ const App = () => {
       <Resume />
       <Safari />
       <Finder />
+      <Text />
+      <Image />
+      <Contact />
     </main>
   );
 };
